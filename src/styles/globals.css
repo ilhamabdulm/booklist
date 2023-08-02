@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fafafa;
+}
+
+.react-rater-star.is-active,
+.react-rater-star.is-active-half::before {
+  color: rgb(223, 223, 3) !important;
+}
